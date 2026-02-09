@@ -30,13 +30,11 @@ ________________________________________________________________________________
 
 The dataset was created by scraping Flipkart and includes the following features:
 
-Column Name	Description,
-Brand	Refrigerator brand name,
-Capacity	Storage capacity (in Liters),
-Doors	Number of doors,
-Star Rating	Energy efficiency rating,
-Ratings	Customer rating score,
-Price	Product price.
+* Dataset: Refridgerator Dataset
+* Source: Flipkart Website
+* Rows: 984 rows
+* Columns: 6
+
 🔄 Project Workflow
 
 1️⃣ Web Scraping
