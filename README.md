@@ -18,15 +18,13 @@ The goal of this project is to simulate a real-world data analyst task — colle
 
 Python
 
--BeautifulSoup – for web scraping
--Requests – for sending HTTP requests
--Pandas – for data manipulation
--NumPy – numerical operations
--Matplotlib & Seaborn – data visualization
-
-Jupyter Notebook
-
-📂 Dataset Information
+* BeautifulSoup - for web scraping
+* Requests – for sending HTTP requests
+* Pandas – for data manipulation
+* NumPy – numerical operations
+* Matplotlib & Seaborn – data visualization
+# Data Set Information
+________________________________________________________________________________________________________________________________________________________________________________________________________
 
 The dataset was created by scraping Flipkart and includes the following features:
 
@@ -38,31 +36,48 @@ Star Rating	Energy efficiency rating,
 Ratings	Customer rating score,
 Price	Product price.
 🔄 Project Workflow
+
 1️⃣ Web Scraping
 
 * Sent requests to Flipkart product pages
 * Parsed HTML using BeautifulSoup
 * Extracted product details such as brand, price, capacity, ratings, etc.
+______________________________________________________________________________________________________________________________________________________________________________________________________
 
 2️⃣ Data Cleaning & Manipulations
 
-Removed null values
-Converted price,Capacity,Ratings,Stars to numeric format
-Handled missing values using fillna method
-
+* Removed null values
+* Converted price,Capacity,Ratings,Stars to numeric format
+* Handled missing values using fillna method
+________________________________________________________________________________________________________________________________________________________________________________________________________
 3️⃣ Exploratory Data Analysis (EDA)
+After scraping the data, Exploratory Data Analysis (EDA) was performed at three levels: Univariate, Bivariate, and Multivariate to understand product patterns and market trends.
 
+🔹 1️⃣ Univariate Analysis 
+  * Brands Distribution
+  * Proportion of Refriderator Doors
+  * Total Count of Refridgerator with different doors
+    
+🔹 2️⃣ Bivariate Analysis (Two Variables)
+    Bivariate analysis studies the relationship between two variables.
+  * Brands Vs Ratings
+  * Realation Between Capacity & Price
+  * Ratings Vs Stars of Refriderator
+  * Brands Vs Price
+    
+🔹 3️⃣ Multivariate Analysis (More than Two Variables)
+    Multivariate analysis examines multiple features together to get deeper insights
+  * Pricing trend across brands and capacity
+  * Correlated values between features of refridgerators
 
+______________________________________________________________________________________________________________________________________________________________________________________________________
 📊 Key Insights
 
-Certain brands dominate the mid-price segment
-
-Higher star ratings generally lead to higher prices
-
-Double-door refrigerators are among the most common
-
-Larger capacity refrigerators are priced significantly higher
-
+* Max Price of all the Brands dominate the mid-price segment except samsung,LG,Godrej,Haier
+* Higher star ratings generally lead to higher prices
+* Single Door & Double-door refrigerators are among the most common
+* Larger capacity refrigerators are priced significantly higher
+______________________________________________________________________________________________________________________________________________________________________________________________________
 💡 Skills Demonstrated
 
 ✔ Web Scraping
@@ -70,8 +85,3 @@ Larger capacity refrigerators are priced significantly higher
 ✔ Exploratory Data Analysis
 ✔ Data Visualization
 ✔ Real-world data handling
-
-
-If you want, next I can help you write:
-👉 a short LinkedIn post to announce this project
-👉 or improve your GitHub repo structure (folders + files)
