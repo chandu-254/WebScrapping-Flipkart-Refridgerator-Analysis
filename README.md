@@ -1,5 +1,6 @@
 # WebScrapping & EDA On-Flipkart-Refridgerator-Analysis
 🧊 Flipkart Refrigerator Data Analysis using Web Scraping
+
 📌 Project Overview
 
 This project focuses on extracting refrigerator product data from Flipkart using web scraping techniques and performing Exploratory Data Analysis (EDA) to understand pricing trends, product features, and customer preferences.
@@ -23,6 +24,7 @@ Python
 * Pandas – for data manipulation
 * NumPy – numerical operations
 * Matplotlib & Seaborn – data visualization
+
 # Data Set Information
 ________________________________________________________________________________________________________________________________________________________________________________________________________
 
