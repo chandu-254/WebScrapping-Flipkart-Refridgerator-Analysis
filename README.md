@@ -8,29 +8,21 @@ The goal of this project is to simulate a real-world data analyst task — colle
 
 🎯 Objectives
 
-Scrape refrigerator product data from Flipkart
-
-Clean and preprocess raw scraped data
-
-Analyze price patterns and feature trends
-
-Identify popular brands and configurations
-
-Visualize insights using charts and graphs
+> Scrape refrigerator product data from Flipkart
+>Clean and preprocess raw scraped data
+>Analyze price patterns and feature trends
+>Identify popular brands and configurations
+>Visualize insights using charts and graphs
 
 🛠️ Tools & Technologies Used
 
 Python
 
-BeautifulSoup – for web scraping
-
-Requests – for sending HTTP requests
-
-Pandas – for data manipulation
-
-NumPy – numerical operations
-
-Matplotlib & Seaborn – data visualization
+-BeautifulSoup – for web scraping
+-Requests – for sending HTTP requests
+-Pandas – for data manipulation
+-NumPy – numerical operations
+-Matplotlib & Seaborn – data visualization
 
 Jupyter Notebook
 
@@ -48,43 +40,18 @@ Price	Product price.
 🔄 Project Workflow
 1️⃣ Web Scraping
 
-Sent requests to Flipkart product pages
+* Sent requests to Flipkart product pages
+* Parsed HTML using BeautifulSoup
+* Extracted product details such as brand, price, capacity, ratings, etc.
 
-Parsed HTML using BeautifulSoup
+2️⃣ Data Cleaning & Manipulations
 
-Extracted product details such as brand, price, capacity, ratings, etc.
-
-2️⃣ Data Cleaning
-
-Removed null and 
-
-Converted price to numeric format 
-
-Standardized column formats
-
-Handled missing values
+Removed null values
+Converted price,Capacity,Ratings,Stars to numeric format
+Handled missing values using fillna method
 
 3️⃣ Exploratory Data Analysis (EDA)
 
-Price distribution analysis
-
-Brand-wise price comparison
-
-Energy rating vs price analysis
-
-Door type popularity
-
-Capacity trend analysis
-
-4️⃣ Data Visualization
-
-Used graphs to understand:
-
-Most common refrigerator types
-
-Relationship between star rating and price
-
-Popular brands in different price ranges
 
 📊 Key Insights
 
