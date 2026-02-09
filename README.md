@@ -38,14 +38,13 @@ Jupyter Notebook
 
 The dataset was created by scraping Flipkart and includes the following features:
 
-Column Name	Description
-Brand	Refrigerator brand name
-Capacity	Storage capacity (in Liters)
-Doors	Number of doors
-Star Rating	Energy efficiency rating
-Ratings	Customer rating score
-Price	Product price
-Compressor Type	Type of compressor used
+Column Name	Description,
+Brand	Refrigerator brand name,
+Capacity	Storage capacity (in Liters),
+Doors	Number of doors,
+Star Rating	Energy efficiency rating,
+Ratings	Customer rating score,
+Price	Product price.
 🔄 Project Workflow
 1️⃣ Web Scraping
 
@@ -57,9 +56,9 @@ Extracted product details such as brand, price, capacity, ratings, etc.
 
 2️⃣ Data Cleaning
 
-Removed null and duplicate values
+Removed null and 
 
-Converted price to numeric format
+Converted price to numeric format 
 
 Standardized column formats
 
