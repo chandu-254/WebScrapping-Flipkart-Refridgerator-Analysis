@@ -35,8 +35,11 @@ ________________________________________________________________________________
 The dataset was created by scraping Flipkart and includes the following features:
 
 > Dataset: Refridgerator Dataset
+
 >  Source: Flipkart Website
+
 >  Rows: 984 rows
+
 > Columns: 6
 
 🔄 Project Workflow
