@@ -9,15 +9,15 @@ The goal of this project is to simulate a real-world data analyst task — colle
 
 🎯 Objectives
 
-> Scrape refrigerator product data from Flipkart
++ Scrape refrigerator product data from Flipkart
  
-> Clean and preprocess raw scraped data
++ Clean and preprocess raw scraped data
 
-> Analyze price patterns and feature trends
++ Analyze price patterns and feature trends
 
-> Identify popular brands and configurations
++ Identify popular brands and configurations
 
-> Visualize insights using charts and graphs
++  Visualize insights using charts and graphs
 
 🛠️ Tools & Technologies Used
 
@@ -34,10 +34,10 @@ ________________________________________________________________________________
 
 The dataset was created by scraping Flipkart and includes the following features:
 
-* Dataset: Refridgerator Dataset
-* Source: Flipkart Website
-* Rows: 984 rows
-* Columns: 6
+> Dataset: Refridgerator Dataset
+>  Source: Flipkart Website
+>  Rows: 984 rows
+> Columns: 6
 
 🔄 Project Workflow
 
